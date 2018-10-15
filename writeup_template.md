@@ -13,7 +13,7 @@ The goals / steps of this project are the following:
 * Reflect on your work in a written report
 
 
-[//]: # (Image References)
+[//]: # "Image References"
 
 [image1]: ./examples/grayscale.jpg "Grayscale"
 
@@ -22,6 +22,17 @@ The goals / steps of this project are the following:
 ### Reflection
 
 ### 1. Describe your pipeline. As part of the description, explain how you modified the draw_lines() function.
+
+
+
+* Gaussian filter to blur image and reduce noises
+* Cannay edge to detect edges
+* Draw mask before hough transform
+* Hough transform to select lines
+* Color selection/mask selection
+* Draw mask and final results
+
+
 
 My pipeline consisted of 5 steps. First, I converted the images to grayscale, then I .... 
 
